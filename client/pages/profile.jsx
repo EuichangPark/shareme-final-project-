@@ -1,14 +1,13 @@
 import React from 'react';
 import Header from '../components/header';
 
-export default function About(props) {
+export default function Profile(props) {
   return (
     <>
       <Header />
       <div>
-        <p>No info yet</p>
+        <p>No profile created yet</p>
       </div>
     </>
-
   );
 }

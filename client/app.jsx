@@ -33,6 +33,12 @@ export default class App extends React.Component {
     if (route.path === 'about') {
       return <About />;
     }
+
+    return (
+      <div className='page-not-found'>
+        <h1>404 - Page Not Found</h1>
+      </div>
+    );
   }
 
   render() {
@@ -42,6 +48,7 @@ export default class App extends React.Component {
         <Username />
         <Cards />
         <Instruction />
+        {this.renderPage}
       </>
     );
   }
