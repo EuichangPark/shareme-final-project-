@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../components/header';
-import ModalAndPin from '../components/modalandpin';
+import Pins from '../components/pin';
 
-export default function Home(props) {
+export default function FeedPage(props) {
   return (
     <>
       <Header />
-      <ModalAndPin />
+      <Pins />
     </>
   );
 }

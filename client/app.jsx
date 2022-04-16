@@ -2,11 +2,8 @@ import React from 'react';
 import Home from './pages/home';
 import Profile from './pages/profile';
 import About from './pages/about';
-import Header from './components/header';
+import FeedPage from './pages/feedpage';
 import { parseRoute } from './lib';
-import Username from './components/username';
-import Cards from './components/cards';
-import Instruction from './components/instruction';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -33,6 +30,9 @@ export default class App extends React.Component {
     if (route.path === 'about') {
       return <About />;
     }
+    if (route.path === 'feed') {
+      return <FeedPage />;
+    }
 
     return (
       <div className='page-not-found'>
@@ -44,11 +44,7 @@ export default class App extends React.Component {
   render() {
     return (
       <>
-        <Header />
-        <Username />
-        <Cards />
-        <Instruction />
-        {this.renderPage}
+        {this.renderPage()}
       </>
     );
   }
