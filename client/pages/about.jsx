@@ -1,13 +1,12 @@
 import React from 'react';
 import Header from '../components/header';
+import Share from '../components/share';
 
-export default function About(props) {
+export default function FeedPage() {
   return (
     <>
       <Header />
-      <div>
-        <p>No info yet</p>
-      </div>
+      <Share />
     </>
   );
 }

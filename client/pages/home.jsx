@@ -1,12 +1,16 @@
 import React from 'react';
 import Header from '../components/header';
-import ModalAndPin from '../components/modalandpin';
+import Card from '../components/card';
+import Greeting from '../components/greeting';
+import Instruction from '../components/instruction';
 
 export default function Home(props) {
   return (
     <>
       <Header />
-      <ModalAndPin />
+      <Greeting />
+      <Instruction />
+      <Card />
     </>
   );
 }

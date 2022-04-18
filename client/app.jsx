@@ -1,7 +1,6 @@
 import React from 'react';
 import Home from './pages/home';
 import Profile from './pages/profile';
-import About from './pages/about';
 import FeedPage from './pages/feedpage';
 import { parseRoute } from './lib';
 
@@ -26,9 +25,6 @@ export default class App extends React.Component {
     }
     if (route.path === 'profile') {
       return <Profile />;
-    }
-    if (route.path === 'about') {
-      return <About />;
     }
     if (route.path === 'feed') {
       return <FeedPage />;
