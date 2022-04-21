@@ -1,0 +1,245 @@
+.col-half {
+  flex-basis: 50%;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.card-body {
+  text-decoration: none;
+  color: black;
+}
+
+.card-title {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.plain {
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card img {
+  height: 400px;
+}
+
+.btn-logout {
+  border-radius: 8px;
+  background-color: #44bd32;
+  color: white;
+  border-style: none;
+  font-weight: bolder;
+  font-size: 13px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.btn-save {
+  background-color: #44bd32;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+  font-weight: bolder;
+  margin-right: 0;
+}
+
+.greeting {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 25px;
+}
+
+.instruction {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.profile-image {
+  width: 400px;
+}
+
+.share {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 450px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.39);
+}
+
+.share-wrapper {
+  padding: 10px;
+}
+
+.share-top {
+  display: flex;
+  align-items: center;
+}
+
+.share-profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.share-input {
+  border: none;
+  width: 80%;
+  font-size: 13px;
+}
+
+.share-input:focus {
+  outline: none;
+}
+
+.share-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.share-options {
+  cursor: pointer;
+}
+
+.share-option-span {
+  font-size: 13px;
+  margin-left: 2px;
+  color: rgb(104, 104, 104);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.btn-share {
+  border-radius: 8px;
+  background-color: #44bd32;
+  color: white;
+  border-style: none;
+  font-weight: bolder;
+  font-size: 13px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.post-profile-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.39);
+}
+
+.post-wrapper {
+  padding: 10px;
+}
+
+.post-top {
+  display: flex;
+  align-items: center;
+}
+
+.post-top-left {
+  display: flex;
+  align-items: center;
+}
+
+.post-user-name {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.post-date {
+  font-size: 12px;
+}
+
+.post-center {
+  margin: 10px 0;
+}
+
+.post-img {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.post-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-bottom-left {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.icon-thumbs-up {
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.post-like-counter {
+  font-size: 12px;
+}
+
+.post-bottom-right {
+  margin-right: 15px;
+}
+
+.post-comment-texts {
+  cursor: pointer;
+  border-bottom: 1px dashed;
+  font-size: 12px;
+}
+
+.photo-container {
+  max-width: 450px;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  margin-left: 38px;
+}
+
+.photo-wrapper {
+  margin: 2px;
+}
+
+.off {
+  display: none !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.post-quotes {
+  width: 400px;
+  height: 400px;
+  margin-left: 38px;
+  overflow-y: scroll;
+  text-align: center;
+}
