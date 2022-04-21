@@ -3,6 +3,7 @@ import Home from './pages/home';
 import Profile from './pages/profile';
 import FeedPage from './pages/feedpage';
 import { parseRoute } from './lib';
+import MoodPosts from './components/moodposts';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -28,6 +29,10 @@ export default class App extends React.Component {
     }
     if (route.path === 'feed') {
       return <FeedPage />;
+    }
+    if (route.path === 'posts') {
+      const mood = route.params.get('mood');
+      return <MoodPosts mood={mood} />;
     }
 
     return (

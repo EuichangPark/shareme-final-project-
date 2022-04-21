@@ -8,6 +8,20 @@
   border-radius: 50%;
 }
 
+.card-body {
+  text-decoration: none;
+  color: black;
+}
+
+.card-title {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.plain {
+  text-decoration: none;
+}
+
 .card:hover {
   transform: scale(1.1);
   transition: 0.3s;
